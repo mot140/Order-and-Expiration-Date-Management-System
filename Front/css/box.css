@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrap{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.item{
+    margin:10px;
+    padding: 30px;
+    width: 32%;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.item img {
+  width: 100%;          /* 枠にフィットさせる */
+  height: auto;         /* アスペクト比を保つ */
+  border-radius: 10px;  /* 枠に合わせて角を丸く */
+  display: block;       /* 不要な余白を消す */
+}
+
+a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding:30px 43px 30px 30px;
+    width:260px;
+    font-size:18px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #90be70;
+    border-radius: 40px;
+}
+
+
+a::after{
+    content: "";
+    transform: rotate(45deg);
+    width:6px;
+    height:6px;
+    border-top:2px solid #2b550e;
+    border-right:2px solid #2b550e;
+    text-align: right;
+}

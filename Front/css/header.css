@@ -1,0 +1,33 @@
+.heading span{
+    display: block;                 /* ← 下に配置されるようにする */
+    position: relative;
+    z-index: 2;
+}
+
+.heading{
+    width:100%;
+    position: relative;
+    padding: 50px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 26px;
+    background-image: url(../photo/header.jpg);
+    margin:0px;
+}
+
+.heading::before{
+    content:attr(data-en);
+    position: block;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    color:#e5c046;
+    font-size: 80px;
+    font-weight:400;
+    font-family: "Playwrite Deutschland Schulausgangschrift", cursive;
+}
+
+
+body{
+    margin:0px;
+}

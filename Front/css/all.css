@@ -1,0 +1,25 @@
+/* 全体構成 */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* メイン構成を縦に並べる */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* コンテンツ部分を可変にして、余白を埋める */
+main {
+  flex: 1;
+}
+
+/* フッター */
+footer {
+background-color: #f4f4f4;
+text-align: center;
+padding: 10px;
+bottom: 0;
+width: 100%;
+}

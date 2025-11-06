@@ -1,0 +1,15 @@
+table{
+    border: 1px solid #333;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:15px;
+}
+th{
+    border: 1px solid #333;
+}
+
+td{
+    border: 1px solid #333;
+}
+

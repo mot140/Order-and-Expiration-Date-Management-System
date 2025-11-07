@@ -34,7 +34,7 @@ label:not(:last-child){
     color:red;
     text-align: left;
 }
-input{
+input,select{
     display: block;
     padding: 20px;
     flex:1;
